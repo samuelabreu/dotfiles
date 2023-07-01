@@ -14,7 +14,7 @@
 			      :duration "350ms"
         (box :vexpand "false" :hexpand "false" :orientation "h"  :space-evenly "false"
           (eventbox :class "song" :onclick "~/.config/leftwm/themes/current/eww_bar/scripts/pop music"
-            (label :text song :limit-width 50))
+            (label :text song :limit-width 40))
           (box :vexpand "false" :hexpand "false" :orientation "h"  :space-evenly "true"
             (button :class "song_btn_prev" :onclick "~/.config/leftwm/themes/current/eww_bar/scripts/music_info --prev" "󰙤")
             (button :class "song_btn_play" :onclick "~/.config/leftwm/themes/current/eww_bar/scripts/music_info --toggle" song_status)

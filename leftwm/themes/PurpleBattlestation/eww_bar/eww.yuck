@@ -14,7 +14,7 @@
 )
 
 (defwidget launcher []
-  (box :class "module-2"
+  (box :class "launcher"
     (button :onclick "~/.config/leftwm/themes/current/scripts/menus -a" "")
   )
 )

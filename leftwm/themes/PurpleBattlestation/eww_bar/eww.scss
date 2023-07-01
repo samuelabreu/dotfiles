@@ -20,6 +20,10 @@ Created by saimoom **/
     border-radius: 10px 16px 0px 10px;
 }
 
+.launcher {
+  margin: 0px 6px 0px 14px;
+}
+
 /** tooltip!! **/
 tooltip.background {
     background-color: #0f0f17;
@@ -143,10 +147,9 @@ scale trough {
 }
 
 .workspaces {
-font-size: 16px;
-font-weight: normal;
-margin: 5px 0px 0px 20px;
-background-color: #0f0f17;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 5px 0px 0px 0px;
 }
 
 .workspace-regular {
